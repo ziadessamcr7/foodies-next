@@ -32,9 +32,6 @@ export default function RootLayout({ children }) {
         </div>
 
         <MainHeader />
-
-        <h1>hrloooooo</h1>
-
         {children}
       </body>
     </html>
