@@ -5,6 +5,11 @@ import { getMeals } from '@/lib/meals'
 import { Suspense } from 'react'
 
 
+export const metadata = {
+    title: 'All Meals',
+    description: 'Browse the delecious meals shared bu our vibrant community.',
+};
+
 async function Meals2(params) {
 
     const meals = await getMeals()
@@ -31,7 +36,7 @@ export default function Meals() {
             </h1>
 
             <p>
-                choose your favorite recipes and cook it yourself. it's easy
+                choose your favorite recipes and cook it yourself. it&#39;s easy
                 and delecious
             </p>
 

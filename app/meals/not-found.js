@@ -1,19 +1,19 @@
 import React from 'react'
 
 const NotFound
-    = () => {
-        return (
-            <main className='not-found'>
+  = () => {
+    return (
+      <main className='not-found'>
 
-          <h1>
-           Meal Not Found
-          </h1>
-          <p>
-            We couldn't find that meal
-          </p>
+        <h1>
+          Meal Not Found
+        </h1>
+        <p>
+          We couldn&#39;t find that meal
+        </p>
 
-            </main>
-        )
-    }
+      </main>
+    )
+  }
 
 export default NotFound
