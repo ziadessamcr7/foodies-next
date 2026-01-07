@@ -8,9 +8,9 @@ const error = () => {
         <>
             <main className='error'>
                 <h1>
-                    An Error Occured
+                    An Error Occureddddd
                 </h1>
-                <p> 
+                <p>
                     Error Fetching meals.
                 </p>
             </main>
